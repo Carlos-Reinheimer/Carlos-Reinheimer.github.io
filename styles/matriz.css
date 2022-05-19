@@ -1,0 +1,19 @@
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: fit-content;
+    padding: 20px;
+    max-width: 100%;
+}
+
+iframe {
+    width: 1000px;
+}
+
+@media (max-width: 1300px) {
+    iframe {
+        width: 100%;
+    }
+}

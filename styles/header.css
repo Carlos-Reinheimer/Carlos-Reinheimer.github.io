@@ -1,0 +1,62 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Jura', sans-serif;
+    background-color: white;
+    height: 120px;
+}
+
+.header_links {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.header_links a {
+    padding: 0 20px;
+}
+
+header a {
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Jura', sans-serif;
+    text-align: center;
+    line-height: 25px;
+    height: fit-content;
+    color: #171717;
+}
+
+header a:hover:not(#course){
+    font-weight: bold;
+}
+
+header a:active:not(#course){
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#course {
+    text-decoration: none;
+}
+
+header h1{
+    font-size: 25px;
+    height: 100%;
+    font-weight: bold;
+    text-align: left;
+    padding: 20px;
+    width: fit-content;
+}
+
+
+@media(max-width: 1300px) {
+    header {
+        height: fit-content;
+    }
+
+    .header_links {
+        flex-direction: column;
+    }
+}

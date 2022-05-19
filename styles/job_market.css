@@ -1,0 +1,46 @@
+.wrapper {
+    align-items: flex-start;
+}
+
+aside {
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    transform: translateY(70px);
+}
+
+aside p {
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 35px;
+}
+
+.br_companies {
+    padding: 20px;
+}
+
+.br_companies h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.images_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 0fr));
+    object-fit: cover;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    justify-content: center;
+}
+
+.image-logo {
+    width: 308px;
+    height: 250px;
+}
+
+.image-logo:hover {
+    opacity: 0.5;
+}
